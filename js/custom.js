@@ -115,8 +115,8 @@ $(document).ready(function () {
 
                 $('.chart').easyPieChart({
                     barColor: '#12DAE9',
-                    trackColor: '#375875',
-                    scaleColor: '#375875',
+                    trackColor: '#303030',
+                    scaleColor: '#303030',
                     lineCap: 'round',
                     lineWidth: 10,
                     size: 400,
@@ -131,10 +131,10 @@ $(document).ready(function () {
 
     // popup
     $('.art1').click(function () {
-        $('.pop1').fadeIn();
+        $('.pop3').fadeIn();
     });
     $('.art2').click(function () {
-        $('.pop2').fadeIn();
+        $('.pop3').fadeIn();
     });
     $('.art3').click(function () {
         $('.pop3').fadeIn();
